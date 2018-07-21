@@ -1,0 +1,17 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	COUNT                   30E8
+//	DELAY                   30E2
+//	H                       3011
+//	HERE                    3000
+//	HSP                     3081
+//	INTVADD                 301C
+//	ISR                     301D
+//	KBSR                    301F
+//	MASK                    301E
+//	REP                     30E4
+//	S                       3006
+//	SAVER1                  30E9
+//	SPH                     30B3
+//	SPS                     3052
+//	SSP                     3020

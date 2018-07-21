@@ -1,0 +1,19 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	DDR                     202A
+//	DSR                     2029
+//	ENTER                   200D
+//	EXIT                    2025
+//	KBDR                    2028
+//	KBSR                    2027
+//	LF                      2026
+//	LOOP                    2011
+//	LOOPL                   2017
+//	MASK                    202B
+//	SAVER0                  202C
+//	SAVER1                  202D
+//	SAVER2                  202E
+//	SAVER3                  202F
+//	SAVER4                  2030
+//	SAVER5                  2031
+//	TOH                     2024
