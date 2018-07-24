@@ -8,11 +8,11 @@ As far as I am concerned, once there is an interruption, the interrupt service r
 
 And during my debugging, I found that the program can also be interrupted while executing the `TRAP x22` instruction, so the process of the printing of the whole line might haven't complete when interrupted. In the case I mentioned above, my program will print the whole line that was interrupted and then change its checkerboard pattern. The following example is a vivid demonstration of what I have just said.
 
-![ERROR when loading the picture, please see error.png](https://github.com/Ainevsia/Introduction-to-Computing-System/my work/experiment4/error.png)
+![ERROR when loading the picture, please see error.png](https://raw.githubusercontent.com/Ainevsia/Introduction-to-Computing-System/master/my%20work/experiment4/error.png "here is the error as you can see")
 
 I also got confused that when storing data into the DDR, it seems that I don't need to set the DSR[15] to 0. If I do so, all the things that I put into the DDR will be put to the screen twice. I just cannot figure out why now and I was really puzzled by that.
 
-![ERROR when loading the picture, please see DDR-draw.png](https://github.com/Ainevsia/Introduction-to-Computing-System/my work/experiment4/DDR-draw.png)
+![ERROR when loading the picture, please see DDR-draw.png](https://raw.githubusercontent.com/Ainevsia/Introduction-to-Computing-System/master/my%20work/experiment4/DDR-draw.png "notice the two lines that I have to remove")
 
 If I do not comment those two blocks, which attempts to change the bit[15] of the DSR from 1 to 0, meaning that after I put a character into the DDR for the display device to print on the screen, the deivce is busy now, the program will end up in a mess.
 
